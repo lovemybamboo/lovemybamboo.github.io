@@ -163,8 +163,8 @@ GameManager.prototype.move = function (direction) {
             case '索':newValue='拉';break;
             case '拉':newValue='西';break;
             case '西':newValue='多';break;
-            //case '多':newValue='贺';break;
-            //case '贺':newValue='竹';break;
+            case '多':newValue='哆';break;
+            
 
           };
           var merged = new Tile(positions.next, newValue);
@@ -187,8 +187,6 @@ GameManager.prototype.move = function (direction) {
             case '拉':newValue=64;break;
             case '西':newValue=128;break;
             case '多':newValue=256;break;
-            //case '贺':newValue=512;break;
-            //case '竹':newValue=1024;break;
           };
           self.score += newValue;
 
