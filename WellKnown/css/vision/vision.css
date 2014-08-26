@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    padding: 0
+}
+
+#content {
+    pading: 0;
+    max-height: 2900px;
+}
+
+.area {
+    background: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    text-align: center;
+    height: 800px;
+    border: 0;
+    pading: 0;
+    margin: 0;
+}
+
+/*导航栏CSS*/
+#nav {
+    position: fixed;
+    right: 0px;
+    margin-top: 5%;
+    pading: 0;
+
+}
+
+#nav-group-img {
+    position: relative;
+    top: -3px;
+    left: 2.5px;
+}
+
+#nav-vision-img {
+    position: relative;
+    top: -6px;
+}
+
+#nav-interaction-img {
+    position: relative;
+    top: -6px;
+    left: 2.5px;
+}
+
+#nav-public-relation-img {
+    position: relative;
+    top: -6px;
+    left: 2.5px;
+}
+
+/*第一个区域 CSS*/
+#first {
+    background-image: url(../../image/vision/first.png);
+
+}
+
+#main-logo {
+    width: 150px;
+    margin-left: 10%;
+}
+
+/*第二个区域 CSS*/
+#logo {
+    height: 200px;
+}
+
+#logo-img {
+    margin-top: 80px;
+}
+
+#info-cn {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+#info-en {
+    margin-top: 20px;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.text-cn {
+    color: #595757;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: STZhongsong;
+	color:#595757;
+}
+
+.text-en {
+    color: #595757;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Times New Roman;
+	color:#595757;
+}
+
+#info-color {
+    margin-top: 20px;
+    margin-left: 19.5%;
+    margin-right: 19.5%;
+    text-align: center;
+}
+
+.color-text-en {
+    color: #ad043c;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Century Gothic;}
+
+#client-tips {
+    margin-top: 40px;
+    background-image: url("../../image/vision/client-show.png");
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+}
+
+#clients-table-div {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#control-left {
+    background-color: #ad043c;
+}
+
+.control-class {
+    width: 120px;
+    height: 3pt;
+    background-color: #dcdddd;
+    cursor: pointer;
+}
+
+#control {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+/*案例展示 CSS*/
+
+#third {
+}
+
+.click {
+    visibility: hidden;
+}
+
+.show-table {
+    width: 100%;
+    pading: 0;
+    margin: 0;
+}
+
+.show-img {
+    margin: 0px, 0px, 0px, 0px;
+    pading: 0px, 0px, 0px, 0px;
+    border: 0px, 0px, 0px, 0px;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+}
+
+#case {
+    background-image: url("../../image/vision/display-case.png");
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+}
+
+/*底部区域 CSS*/
+
+#forth {
+    background-image: url(../../image/vision/fourth.png);
+
+    font-family: YouYuan;
+    pading: 0;
+    margin: 0;
+    height: 500px;
+}
+
+#tips {
+    position: relative;
+    top: 65px;
+    left: 15%;
+    text-align: left;
+    width: 500px;
+
+}
+
+#tip-p {
+    margin: 0;
+    padding: 0;
+}
+
+.tip {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: YouYuan;
+    color: #ffffff;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    color: #ffffff;
+}
+
+#weibo {
+    font-family: YouYuan;
+}
+
+#confirm-p {
+    text-align: center;
+}
+
+#email-div {
+    position: absolute;
+    left: 15%;
+    text-align: left;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+#email-2 {
+    margin-top: 10px;
+    text-align: left;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: Century Gothic;
+}
+
+#join-div {
+    width:300px;
+    margin-left: auto;
+    margin-top: 22%;
+
+    color: #ffffff;
+}
+
+#join-line {
+    text-align: left;
+    width: 190px;
+    margin: 5px 0px 5px 0px;
+}
+
+#join-cn {
+    text-align: left;
+    margin-bottom: 0;
+    text-decoration: blink
+}
+
+#join-en {
+    text-align: left;
+    margin-bottom: 0;
+    font-family: Century Gothic;
+	font-weight:bold;
+}
+
+#join-img-div {
+    position: absolute;
+    width: 120px;
+    right: 15%;
+    height: 100px;
+}
+#join-img-click-div{
+    position: relative;
+    top:-100px;
+
+}
+#join-img-click{
+    opacity:0;
+}
+#footer-text {
+    margin-bottom: 0;
+    color: #ffffff;
+    text-align: right;
+}
+
+#footer {
+    font-size: 10px;
+    margin-right: 30px;
+}
+
+#footer-text-en {
+    margin-left: 5%;
+    font-family: Century Gothic;
+}

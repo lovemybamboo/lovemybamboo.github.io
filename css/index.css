@@ -1,0 +1,16 @@
+#intro{
+    background-color: #18bc9c;
+}
+.img-responsive{
+    text-align: center;
+    color: #fff;
+    margin: 0 auto 20px;
+}
+.name{
+    display: block;
+
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    font-size: 4.75em;
+}
