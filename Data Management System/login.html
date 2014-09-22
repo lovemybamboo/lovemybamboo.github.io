@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>数据平台——登陆</title>
+    <title>XXX惯性导航系统可靠性数据平台——登陆</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -25,7 +25,9 @@
 
     <!-- Page login CSS -->
     <link href="css/css_login/login.css" rel="stylesheet" type="text/css">
-
+    <!--Message CSS -->
+    <link href="css/plugins/messenger/messenger.css" rel="stylesheet" type="text/css">
+    <link href="css/plugins/messenger/messenger-theme-flat.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -41,14 +43,14 @@
                         <form role="form">
                             <fieldset>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="用户名" name="user_name" type="email" autofocus>
+                                    <input id="input_username"class="form-control" placeholder="用户名" name="username" type="text" autofocus>
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="密码" name="password" type="password" value="">
+                                    <input id="input_password" class="form-control" placeholder="密码" name="password" type="password">
                                 </div>
 
                                 <!-- Change this to a button or input when using this as a form -->
-                                <a href="user_management.html" class="btn btn-lg btn-success btn-block">登陆</a>
+                                <button id="login" type="submit" class="btn btn-lg btn-success btn-block" onclick="return validation()">登陆</button>
                             </fieldset>
                         </form>
                     </div>
@@ -68,7 +70,9 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/sb-admin-2.js"></script>
-
+    <script src="js/plugins/messenger/messenger.min.js"></script>
+    <script src="js/plugins/messenger/messenger-theme-flat.js"></script>
+    <script src="js/login.js"></script>
 </body>
 
 </html>

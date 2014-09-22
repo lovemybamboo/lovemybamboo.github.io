@@ -4,3 +4,22 @@
 .col-xs-9{
     padding-right:4px;
 }
+th{
+    text-align: center ;
+}
+#div-create-user-start{
+    color: #428bca;
+    cursor: pointer;
+}
+#div-query-user-start{
+    color: #5cb85c;
+    cursor: pointer;
+}
+#div-function-set-start{
+    color: #f0ad4e;
+    cursor: pointer;
+}
+#div-function-manage-start{
+    color: #d9534f;
+    cursor: pointer;
+}
