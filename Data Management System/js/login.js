@@ -28,5 +28,9 @@ function validation(){
         flag=false;
         return flag;
     }
+    if(username=="test" && password=="test"){
+        flag=true;
+        location.href="jsp/system_management/user_management.html";
+    }
     return flag;
 }

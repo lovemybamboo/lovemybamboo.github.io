@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>平台管理——精度计算</title>
+    <title>平台管理——日志管理</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -33,8 +33,7 @@
     <link href="../../css/plugins/messenger/messenger-theme-flat.css" rel="stylesheet" type="text/css">
     <!--DateTimePicker CSS -->
     <link href="../../css/plugins/datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css">
-    <!-- Page Accuracy_Calculation CSS -->
-    <link href="../../css/css_accuracy_calculation/accuracy_calculation.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
@@ -79,8 +78,8 @@
             <ul class="nav" id="side-menu">
 
                 <li>
-                    <a href="user_management.html">平台管理<span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level collapse">
+                    <a  class="active" href="user_management.html">平台管理<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse in">
                         <li>
                             <a href="../system_management/user_management.html">用户管理</a>
                         </li>
@@ -130,8 +129,8 @@
                     <!-- /.nav-second-level -->
                 </li>
                 <li>
-                    <a class="active" href="#"> 精度评定 <span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level collapse in">
+                    <a href="#"> 精度评定 <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse">
                         <li>
                             <a href="../accuracy_calculation/accuracy_calculation.html">精度计算</a>
                         </li>
@@ -177,7 +176,7 @@
 <div id="page-wrapper" style="min-height: 589px;">
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">精度计算</h1>
+            <h1 class="page-header">日志管理</h1>
         </div>
         <!-- /.col-lg-12 -->
     </div>
@@ -187,18 +186,11 @@
         <div class="col-lg-12">
             <div class="panel panel-primary">
                 <div class="panel-heading">
-                    过滤数据
+                    日志查询
                 </div>
                 <!-- .panel-heading -->
                 <div class="panel-body">
                     <form class="form-horizontal" role="form">
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">实验批次</label>
-
-                            <div class="col-sm-10">
-                                <input class="form-control" id="input-user-id">
-                            </div>
-                        </div>
 
                         <div class="form-group">
                             <label class="col-sm-2 control-label">起始时间</label>
@@ -225,7 +217,7 @@
                         <div class="form-group">
                             <div class="col-sm-offset-0 col-sm-4">
                                 <button type="button" class="btn btn-success  btn-lg btn-block" id="btn-query-confirm">
-                                    过滤数据
+                                    过滤日志
                                 </button>
                             </div>
                             <div class="col-sm-offset-4 col-sm-4">
@@ -245,7 +237,7 @@
     <div class="row" id="div-data-result">
         <div class="col-lg-12">
             <div class="panel panel-success">
-                <div class="panel-heading">数据列表</div>
+                <div class="panel-heading">日志列表</div>
                 <!-- /.panel-heading -->
                 <div class="panel-body">
                     <div class="table-responsive">
@@ -255,13 +247,10 @@
                                 <th>
                                     <input type="checkbox" value="">
                                 </th>
-                                <th>纬度</th>
-                                <th>经度</th>
-                                <th>东速</th>
-                                <th>北速</th>
-                                <th>纵摇</th>
-                                <th>横摇</th>
-                                <th>航向</th>
+                                <th>日志编号</th>
+                                <th>日志时间</th>
+                                <th>操作人</th>
+                                <th>操作内容</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -279,44 +268,7 @@
         <!-- /.col-lg-12 -->
     </div>
     <!-- /.row -->
-    <div class="row" id="div-data-button">
-        <div class="col-lg-12">
-            <div class="panel panel-warning">
-                <div class="panel-heading">选择评定方法</div>
-                <!-- /.panel-heading -->
-                <div class="panel-body">
-                    <div class="col-xs-6 col-sm-3">
-                        <button type="button" class="btn btn-primary  btn-lg btn-block" id="btn-function-1">径向误差</button>
-                    </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <button class="btn btn-primary  btn-lg btn-block" id="btn-function-2">径向误差最大值</button>
-                    </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <button type="button" class="btn btn-primary  btn-lg btn-block" id="btn-function-3">圆周率误差</button>
-                    </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <button class="btn btn-primary  btn-lg btn-block" id="btn-function-4">TRMS</button>
-                    </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <button type="button" class="btn btn-primary  btn-lg btn-block" id="btn-function-5">速度误差RMS</button>
-                    </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <button class="btn btn-primary  btn-lg btn-block" id="btn-function-6">速度误差最大值</button>
-                    </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <button type="button" class="btn btn-primary  btn-lg btn-block" id="btn-function-7">姿态误差RMS</button>
-                    </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <button class="btn btn-primary  btn-lg btn-block" id="btn-function-8">姿态误差最大值</button>
-                    </div>
 
-                </div>
-                <!-- /.panel-body -->
-            </div>
-            <!-- /.panel -->
-        </div>
-
-    </div>
 </div>
 <!-- /#page-wrapper -->
 
@@ -350,7 +302,7 @@
 <script src="../../js/plugins/datetimepicker/bootstrap-datetimepicker.min.js"></script>
 <script src="../../js/plugins/datetimepicker/locales/bootstrap-datetimepicker.zh-CN.js"></script>
 
-<script src="../../js/js_accuracy_calculation/accuracy_calculation.js"></script>
+<script src="../../js/js_user_management/log_management.js"></script>
 
 </body>
 </html>

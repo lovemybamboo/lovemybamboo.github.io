@@ -1,9 +1,5 @@
 /**
- * Created with JetBrains WebStorm.
- * User: Luo Bo
- * Date: 14-9-1
- * Time: 下午9:45
- * To change this template use File | Settings | File Templates.
+ * Created by Mr.LuoBo on 2014/10/2.
  */
 $(document).ready(function () {
 

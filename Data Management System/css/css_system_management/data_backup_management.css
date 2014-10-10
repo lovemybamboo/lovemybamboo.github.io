@@ -1,0 +1,17 @@
+.huge {
+    font-size: 35px;
+}
+.col-xs-9{
+    padding-right:4px;
+}
+th{
+    text-align: center ;
+}
+#div-manual-backup-start{
+    color: #428bca;
+    cursor: pointer;
+}
+#div-automatic-backup-start{
+    color: #5cb85c;
+    cursor: pointer;
+}

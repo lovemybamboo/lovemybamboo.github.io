@@ -12,6 +12,7 @@ $(document).ready(function () {
 });
 function initTable(){
     $('#dataTables-function-management').dataTable();
+    $('#dataTables-function-choose').dataTable();
     $('#dataTables-function-set').dataTable();
     $('#dataTables-user-query').dataTable();
 }
@@ -51,7 +52,7 @@ function createUserJudge(){
     var flag=true;
     Messenger.options = {
         extraClasses: 'messenger-fixed messenger-on-top',
-        theme: 'flat'
+        theme: 'future'
     };
     for(var i=0;i<targetList.length;i++){
         var content=document.getElementById(targetList[i]).value;
@@ -99,5 +100,34 @@ function buttonClickEvents(){
     });
     $("#btn-create-user-cancel").click(function (){
         $("div-create-user").hide();
+    });
+    $(".btn-user-modify").click(function (){
+        $('#userModifyModal').modal();
+        var parent=$(this).parent().parent();
+        var id=parent.children()[1].textContent;
+        $("#modify-input-user-id").val(id);
+        var name=parent.children()[2].textContent;
+        $("#modify-input-user-name").val(name);
+        var duty=parent.children()[3].textContent;
+        $("#modify-input-user-duty").val(duty);
+        var role=parent.children()[4].textContent;
+        $("#modify-radio-roles").val(role);
+        var telephone=parent.children()[5].textContent;
+        $("#modify-input-user-telephone").val(telephone);
+
+    });
+    $(".btn-user-delete").click(function (){
+        $('#userDeleteModal').modal();
+        var parent=$(this).parent().parent();
+        var id=parent.children()[1].textContent;
+    });
+    $(".btn-add-function-1-level").click(function (){
+        $('#functionAddModal').modal();
+    });
+    $(".btn-delete-function-1-level").click(function (){
+        $('#functionDeleteModal').modal();
+    });
+    $(".edit-function").click(function (){
+        $('#userFunctionManageModal').modal();
     });
 }
