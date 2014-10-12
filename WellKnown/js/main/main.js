@@ -32,19 +32,19 @@ function selfAdaption() {
     $("#person-tr").css("padding-bottom",50*scale);
     $(".person-td").css("height", scale * 200);
     $(".person-td").css("weight", scale * 200);
-    for (var i = 1; i < 11; i++) {
+    for (var i = 1; i < 13; i++) {
         var person = "#person-" + i;
         $(person).css("height", scale * 200);
         $(person).css("weight", scale * 200);
-        if(i==5 || i==10){
-            if(i==10){
+        if(i==6 || i==12){
+            if(i==12){
                 $(".person-td-"+i).css("padding-top", scale * 50);
             }
             continue;
         }
         $(".person-td-"+i).css("padding-right", scale * 35);
 
-        if(i>5){
+        if(i>6){
             $(".person-td-"+i).css("padding-top", scale * 50);
         }
     }
@@ -182,74 +182,88 @@ function imageFunction() {
     });
     //同事展示
     $("#person-1").mouseover(function () {
-        $("#person-1").attr("src", "./image/main/person/person-1-2.jpg");
+        $("#person-1").attr("src", "./image/main/person/person-1-2.png");
 
     });
     $("#person-1").mouseleave(function () {
-        $("#person-1").attr("src", "./image/main/person/person-1-1.jpg");
+        $("#person-1").attr("src", "./image/main/person/person-1-1.png");
     });
     $("#person-2").mouseover(function () {
-        $("#person-2").attr("src", "./image/main/person/person-2-2.jpg");
+        $("#person-2").attr("src", "./image/main/person/person-2-2.png");
 
     });
     $("#person-2").mouseleave(function () {
-        $("#person-2").attr("src", "./image/main/person/person-2-1.jpg");
+        $("#person-2").attr("src", "./image/main/person/person-2-1.png");
     });
     $("#person-3").mouseover(function () {
-        $("#person-3").attr("src", "./image/main/person/person-3-2.jpg");
+        $("#person-3").attr("src", "./image/main/person/person-3-2.png");
 
     });
     $("#person-3").mouseleave(function () {
-        $("#person-3").attr("src", "./image/main/person/person-3-1.jpg");
+        $("#person-3").attr("src", "./image/main/person/person-3-1.png");
     });
     $("#person-4").mouseover(function () {
-        $("#person-4").attr("src", "./image/main/person/person-4-2.jpg");
+        $("#person-4").attr("src", "./image/main/person/person-4-2.png");
 
     });
     $("#person-4").mouseleave(function () {
-        $("#person-4").attr("src", "./image/main/person/person-4-1.jpg");
+        $("#person-4").attr("src", "./image/main/person/person-4-1.png");
     });
     $("#person-5").mouseover(function () {
-        $("#person-5").attr("src", "./image/main/person/person-5-2.jpg");
+        $("#person-5").attr("src", "./image/main/person/person-5-2.png");
 
     });
     $("#person-5").mouseleave(function () {
-        $("#person-5").attr("src", "./image/main/person/person-5-1.jpg");
+        $("#person-5").attr("src", "./image/main/person/person-5-1.png");
     });
     $("#person-6").mouseover(function () {
-        $("#person-6").attr("src", "./image/main/person/person-6-2.jpg");
+        $("#person-6").attr("src", "./image/main/person/person-6-2.png");
 
     });
     $("#person-6").mouseleave(function () {
-        $("#person-6").attr("src", "./image/main/person/person-6-1.jpg");
+        $("#person-6").attr("src", "./image/main/person/person-6-1.png");
     });
     $("#person-7").mouseover(function () {
-        $("#person-7").attr("src", "./image/main/person/person-7-2.jpg");
+        $("#person-7").attr("src", "./image/main/person/person-7-2.png");
 
     });
     $("#person-7").mouseleave(function () {
-        $("#person-7").attr("src", "./image/main/person/person-7-1.jpg");
+        $("#person-7").attr("src", "./image/main/person/person-7-1.png");
     });
     $("#person-8").mouseover(function () {
-        $("#person-8").attr("src", "./image/main/person/person-8-2.jpg");
+        $("#person-8").attr("src", "./image/main/person/person-8-2.png");
 
     });
     $("#person-8").mouseleave(function () {
-        $("#person-8").attr("src", "./image/main/person/person-8-1.jpg");
+        $("#person-8").attr("src", "./image/main/person/person-8-1.png");
     });
     $("#person-9").mouseover(function () {
-        $("#person-9").attr("src", "./image/main/person/person-9-2.jpg");
+        $("#person-9").attr("src", "./image/main/person/person-9-2.png");
 
     });
     $("#person-9").mouseleave(function () {
-        $("#person-9").attr("src", "./image/main/person/person-9-1.jpg");
+        $("#person-9").attr("src", "./image/main/person/person-9-1.png");
     });
     $("#person-10").mouseover(function () {
-        $("#person-10").attr("src", "./image/main/person/person-10-2.jpg");
+        $("#person-10").attr("src", "./image/main/person/person-10-2.png");
 
     });
     $("#person-10").mouseleave(function () {
-        $("#person-10").attr("src", "./image/main/person/person-10-1.jpg");
+        $("#person-10").attr("src", "./image/main/person/person-10-1.png");
+    });
+    $("#person-11").mouseover(function () {
+        $("#person-11").attr("src", "./image/main/person/person-11-2.png");
+
+    });
+    $("#person-11").mouseleave(function () {
+        $("#person-11").attr("src", "./image/main/person/person-11-1.png");
+    });
+    $("#person-12").mouseover(function () {
+        $("#person-12").attr("src", "./image/main/person/person-12-2.png");
+
+    });
+    $("#person-12").mouseleave(function () {
+        $("#person-12").attr("src", "./image/main/person/person-12-1.png");
     });
 }
 function addBookmark() {
@@ -297,6 +311,9 @@ function tipsFunction() {
     $("#confirmButton").click(function () {
         $('#addFavoriteModal').modal('toggle');
         addBookmark();
+    });
+    $("#join-img-click").click(function () {
+        $('#joinusModal').modal();
     });
 }
 

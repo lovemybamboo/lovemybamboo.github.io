@@ -6,16 +6,16 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/WellKnown Public Relation.html" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1404030446334" ignored="false" />
     <file path="/image.css" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1403449153540" ignored="false" />
-    <file path="/interaction.js" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1408965971319" ignored="false" />
+    <file path="/interaction.js" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1409824503543" ignored="false" />
     <file path="/public-relation.css" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1405067859072" ignored="false" />
     <file path="/public-relation.js" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1405065774224" ignored="false" />
-    <file path="/Interaction.html" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1405502319996" ignored="false" />
+    <file path="/Interaction.html" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1409828250130" ignored="false" />
     <file path="/interaction.css" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1404899840394" ignored="false" />
-    <file path="/Vision.html" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1404573597620" ignored="false" />
+    <file path="/Vision.html" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1409828727144" ignored="false" />
     <file path="/vision.css" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1404877531527" ignored="false" />
-    <file path="/Main.html" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1405499640195" ignored="false" />
-    <file path="/main.css" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1405499850075" ignored="false" />
-    <file path="/Public Relation.html" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1405067012795" ignored="false" />
+    <file path="/Main.html" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1409822756265" ignored="false" />
+    <file path="/main.css" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1409829414745" ignored="false" />
+    <file path="/Public Relation.html" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1409828623187" ignored="false" />
     <file path="/main.js" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1405501847800" ignored="false" />
     <file path="/test.html" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1404308427351" ignored="false" />
     <file path="/bootstrap.min.css" changelist="944ddded-dc81-4dcd-b014-aacc1c809de5" time="1404303075856" ignored="false" />
@@ -41,19 +41,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Interaction.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Interaction.html">
+      <file leaf-file-name="Main.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="117" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.44015443">
+            <state line="294" column="120" selection-start="13361" selection-end="13361" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interaction.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/interaction/interaction.js">
+      <file leaf-file-name="Public Relation.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Public Relation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="279" column="9" selection-start="10546" selection-end="10546" vertical-scroll-proportion="0.0">
+            <state line="90" column="57" selection-start="3620" selection-end="3620" vertical-scroll-proportion="0.036679536">
               <folding />
             </state>
           </provider>
@@ -72,19 +72,19 @@
         <option value="$PROJECT_DIR$/css/interaction/interaction.css" />
         <option value="$PROJECT_DIR$/css/vision/vision.css" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/Vision.html" />
         <option value="$PROJECT_DIR$/css/Public Relation-1.html" />
         <option value="$PROJECT_DIR$/css/public-relation/public-relation-1.css" />
         <option value="$PROJECT_DIR$/Public Relation-1.html" />
         <option value="$PROJECT_DIR$/css/public-relation/public-relation.css" />
-        <option value="$PROJECT_DIR$/js/public-relation/public-relation.js" />
-        <option value="$PROJECT_DIR$/js/vision/vision.js" />
-        <option value="$PROJECT_DIR$/Public Relation.html" />
-        <option value="$PROJECT_DIR$/css/main/main.css" />
-        <option value="$PROJECT_DIR$/Main.html" />
         <option value="$PROJECT_DIR$/js/main/main.js" />
-        <option value="$PROJECT_DIR$/Interaction.html" />
         <option value="$PROJECT_DIR$/js/interaction/interaction.js" />
+        <option value="$PROJECT_DIR$/Interaction.html" />
+        <option value="$PROJECT_DIR$/js/public-relation/public-relation.js" />
+        <option value="$PROJECT_DIR$/Public Relation.html" />
+        <option value="$PROJECT_DIR$/js/vision/vision.js" />
+        <option value="$PROJECT_DIR$/Vision.html" />
+        <option value="$PROJECT_DIR$/Main.html" />
+        <option value="$PROJECT_DIR$/css/main/main.css" />
       </list>
     </option>
   </component>
@@ -120,6 +120,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -130,7 +131,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,11 +141,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Luo Bo\WebstormProjects\WellKnown\image\main\person" />
       <recent name="E:\Users\Luo Bo\WebstormProjects\WellKnown\image\main" />
       <recent name="E:\Users\Luo Bo\WebstormProjects\WellKnown\js" />
       <recent name="E:\Users\Luo Bo\WebstormProjects\WellKnown\image\vision" />
       <recent name="E:\Users\Luo Bo\WebstormProjects\WellKnown\image\interaction" />
-      <recent name="E:\Users\Luo Bo\WebstormProjects\WellKnown\image\public-relation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Users\Luo Bo\WebstormProjects\WellKnown" />
@@ -201,12 +201,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16753536" sideWeight="0.6714922" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16753536" sideWeight="0.6714922" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18251534" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -283,7 +283,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/interaction/interaction.js</url>
-          <line>156</line>
+          <line>164</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
@@ -291,38 +291,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Interaction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="47" selection-start="2256" selection-end="2256" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interaction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="47" selection-start="2173" selection-end="2173" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/public-relation/client-show.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/interaction/interaction.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="408" selection-end="482" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/public-relation/public-relation.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="294" column="14" selection-start="4296" selection-end="4296" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vision.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="16" selection-start="2183" selection-end="2183" vertical-scroll-proportion="-13.571428" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/vision/vision.css">
@@ -330,51 +301,78 @@
         <state line="115" column="0" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/vision/vision.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image/main/fifth.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public Relation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="88" selection-start="6049" selection-end="6049" vertical-scroll-proportion="-3.107143" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/public-relation/public-relation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="39" selection-start="6035" selection-end="6103" vertical-scroll-proportion="0.0" />
+    <entry file="file://$PROJECT_DIR$/image/main/person/person-1-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="251" column="66" selection-start="9336" selection-end="9336" vertical-scroll-proportion="0.934558" />
+        <state line="315" column="23" selection-start="11616" selection-end="11616" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main/main.css">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="170" column="17" selection-start="2423" selection-end="2439" vertical-scroll-proportion="0.42020667" />
+        <state line="5531" column="0" selection-start="105535" selection-end="105535" vertical-scroll-proportion="-0.18864469" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.html">
+    <entry file="file://$PROJECT_DIR$/image/interaction/case/i-x.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/interaction/interaction.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="39" selection-start="6219" selection-end="6219" vertical-scroll-proportion="0.90843374" />
+        <state line="91" column="14" selection-start="1202" selection-end="1213" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/public-relation/public-relation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="52" selection-start="6392" selection-end="6392" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vision.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="48" selection-start="3584" selection-end="3584" vertical-scroll-proportion="0.7702703" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vision/vision.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="37" selection-start="6460" selection-end="6460" vertical-scroll-proportion="0.7307692" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/interaction/interaction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="279" column="9" selection-start="10546" selection-end="10546" vertical-scroll-proportion="0.0">
+        <state line="152" column="8" selection-start="6378" selection-end="6880" vertical-scroll-proportion="0.31318682">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Interaction.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="117" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.44015443">
+        <state line="99" column="18" selection-start="3399" selection-end="3989" vertical-scroll-proportion="0.36679536" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="287" column="19" selection-start="4104" selection-end="4104" vertical-scroll-proportion="0.52415025" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="294" column="120" selection-start="13361" selection-end="13361" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public Relation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="57" selection-start="3620" selection-end="3620" vertical-scroll-proportion="0.036679536">
           <folding />
         </state>
       </provider>

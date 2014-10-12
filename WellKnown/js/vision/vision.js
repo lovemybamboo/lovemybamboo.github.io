@@ -148,9 +148,17 @@ function imageFunction() {
 function clickCase(){
     $(".click").click(function(){
         var id = $(this).attr("id");
+        var scale = window_width / 1440;
+        var width=parseInt(1000*scale);
+        $("#show-modal-dialog").css("width",width+5);
+        $("#show-modal-body").css("width",width+5);
+        $("#show-modal-img").css("width", width);
+        $("#show-modal-body").css("padding",0);
         id = id.substring(6);
-        var imagePath = "image/vision/case/" + id + "-light.png";
+        var imagePath = "image/vision/case/" + id + "-case.jpg";
         $("#show-modal-img").attr("src", imagePath);
+
+
         $('#show-modal').modal();
     });
 }
@@ -244,8 +252,11 @@ function tipsFunction() {
     $("#confirmButton").click(function () {
         $('#addFavoriteModal').modal('toggle');
         addBookmark();
-
     });
+    $("#join-img-click").click(function () {
+        $('#joinusModal').modal();
+    });
+
 }
 jQuery(document).ready(function () {
     selfAdaption();

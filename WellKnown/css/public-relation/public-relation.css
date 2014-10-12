@@ -291,6 +291,16 @@ li {
     top:-100px;
 
 }
+#joinusModal{
+    text-align: left;
+}
+hr{
+    color: darkslateblue;
+}
+.join-us-content-1{
+    font-weight: bold;
+    font-size: 16px;
+}
 #join-img-click{
     opacity:0;
 }
